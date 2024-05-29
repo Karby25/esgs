@@ -96,6 +96,7 @@ nav {
   display: flex;
   justify-content: center;
   height: 160px;
+  width: 360px;
 }
 
 nav ul {
@@ -144,11 +145,11 @@ nav ul li a:hover {
 
 .flex-navbar {
   display: flex;
-  gap: 34%;
+  gap: 33%;
   align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
   height: 160px;
+  width: 96%;
+  margin-left: 40px;
 }
 
 .contacts {
@@ -167,4 +168,40 @@ nav ul li a:hover {
 
 .social-icons i {
   color: black;
+}
+
+.references-sec {
+  width: 1600px;
+  display: grid;
+  margin-top: 160px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.ref-images-bundle {
+  display: flex;
+  gap: 5%;
+}
+
+.references-image {
+  width: 460px;
+  height: 300px;
+}
+
+.black {
+  color: black;
+}
+
+.ref-text {
+  display: grid;
+  justify-content: center;
+}
+
+.ref-text p {
+  width: 700px;
+  text-align: center;
+}
+
+.ref-text h2 {
+  text-align: center;
 }
