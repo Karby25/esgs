@@ -83,7 +83,6 @@ p {
 
 .box-text {
   width: 470px;
-  margin-left: 120px;
 }
 
 footer {
@@ -154,7 +153,8 @@ nav ul li a:hover {
 
 .contacts {
   height: 160px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
 }
@@ -204,4 +204,10 @@ nav ul li a:hover {
 
 .ref-text h2 {
   text-align: center;
+}
+
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
